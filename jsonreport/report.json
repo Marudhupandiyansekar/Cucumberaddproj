@@ -1,0 +1,641 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3032329800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "        To validate valid username and invalid password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 258221100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1959361100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the ChromeBrowser and launch the URL",
+            "match": {
+              "location": "StepDefinition.to_launch_the_ChromeBrowser_and_launch_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206562100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To validate the valid username in email field",
+            "match": {
+              "location": "StepDefinition.to_validate_the_valid_username_in_email_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156954400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To validate the invalid password in password field",
+            "match": {
+              "location": "StepDefinition.to_validate_the_invalid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127429900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the Login button",
+            "match": {
+              "location": "StepDefinition.to_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To Close the Browser",
+            "match": {
+              "location": "StepDefinition.to_Close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1422305400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "",
+        "description": " To verify invalid username and invalid password",
+        "id": ";;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 330209700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1805239000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To start chrome browser and hit the url",
+            "match": {
+              "location": "FbPosNeg.toStartChromeBrowserAndHitTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183848300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To verify invalid username \"marudhu@gmail.com\" in email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marudhu@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidUsernameInEmailBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)\r\n\tat ✽.To verify invalid password in \"marudhu14\" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)\r\n",
+              "duration": 5095500,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "To verify invalid password in \"marudhu14\" password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marudhu14\"",
+                  "offset": 30
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidPasswordInPasswordBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9500,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "To press login button",
+            "match": {
+              "location": "FbPosNeg.toPressLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbPosNeg.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1270928400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "",
+        "description": " To verify invalid username and invalid password",
+        "id": ";;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 437718100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1827511200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To start chrome browser and hit the url",
+            "match": {
+              "location": "FbPosNeg.toStartChromeBrowserAndHitTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151855400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To verify invalid username \"abc@gmail.com\" in email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidUsernameInEmailBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)\r\n\tat ✽.To verify invalid password in \"by123\" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)\r\n",
+              "duration": 371000,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "To verify invalid password in \"by123\" password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"by123\"",
+                  "offset": 30
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidPasswordInPasswordBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "To press login button",
+            "match": {
+              "location": "FbPosNeg.toPressLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbPosNeg.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1374967300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "",
+        "description": " To verify invalid username and invalid password",
+        "id": ";;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 306292700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1893941000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To start chrome browser and hit the url",
+            "match": {
+              "location": "FbPosNeg.toStartChromeBrowserAndHitTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178499800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To verify invalid username \"laptop123@gmail.com\" in email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"laptop123@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidUsernameInEmailBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)\r\n\tat ✽.To verify invalid password in \"dell\" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)\r\n",
+              "duration": 335400,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "To verify invalid password in \"dell\" password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dell\"",
+                  "offset": 30
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidPasswordInPasswordBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "To press login button",
+            "match": {
+              "location": "FbPosNeg.toPressLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbPosNeg.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1287532900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "",
+        "description": " To verify invalid username and invalid password",
+        "id": ";;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 290916300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1802269400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To start chrome browser and hit the url",
+            "match": {
+              "location": "FbPosNeg.toStartChromeBrowserAndHitTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177551000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To verify invalid username \"samusnggalaxy@gmail.com\" in email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samusnggalaxy@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidUsernameInEmailBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)\r\n\tat ✽.To verify invalid password in \"galaxya30\" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)\r\n",
+              "duration": 232900,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "To verify invalid password in \"galaxya30\" password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"galaxya30\"",
+                  "offset": 30
+                }
+              ],
+              "location": "FbPosNeg.toVerifyInvalidPasswordInPasswordBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "To press login button",
+            "match": {
+              "location": "FbPosNeg.toPressLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbPosNeg.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "       To validate the facebook login page",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1366027300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "To validate valid username and invalid password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 256751700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1395188600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser",
+            "match": {
+              "location": "Amazon.toLaunchTheChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.Amazon.toEnterValidUsernameInEmailField(Amazon.java:27)\r\n\tat ✽.To enter valid username in email field(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/amazon.feature:6)\r\n",
+              "duration": 275700,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "To enter valid username in email field",
+            "match": {
+              "location": "Amazon.toEnterValidUsernameInEmailField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "To click the continue button",
+            "match": {
+              "location": "Amazon.toClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "To enter invalid password in password field",
+            "match": {
+              "location": "Amazon.toEnterInvalidPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "To click the the sign in button",
+            "match": {
+              "location": "Amazon.toClickTheTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "To close the  browser",
+            "match": {
+              "location": "Amazon.toCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate functionality of amazon signin page",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/amazon.feature",
+    "tags": []
+  }
+]

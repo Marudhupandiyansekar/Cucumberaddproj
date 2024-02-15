@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="23.518122">
+    <testcase classname="" name="_2" time="5.749518">
+        <system-out><![CDATA[Given To launch the ChromeBrowser and launch the URL........................passed
+When To validate the valid username in email field..........................passed
+And To validate the invalid password in password field......................passed
+And To click the Login button...............................................passed
+Then To Close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_3" time="3.747528">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)&#13;&#10;&#9;at ✽.To verify invalid password in &quot;marudhu14&quot; password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)&#13;&#10;"><![CDATA[Given To start chrome browser and hit the url...............................passed
+When To verify invalid username "marudhu@gmail.com" in email box............passed
+And To verify invalid password in "marudhu14" password box..................failed
+And To press login button...................................................skipped
+Then To close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)
+	at ✽.To verify invalid password in "marudhu14" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)
+]]></failure>
+    </testcase>
+    <testcase classname="" name="_4" time="3.688876">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)&#13;&#10;&#9;at ✽.To verify invalid password in &quot;by123&quot; password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)&#13;&#10;"><![CDATA[Given To start chrome browser and hit the url...............................passed
+When To verify invalid username "abc@gmail.com" in email box................passed
+And To verify invalid password in "by123" password box......................failed
+And To press login button...................................................skipped
+Then To close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)
+	at ✽.To verify invalid password in "by123" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)
+]]></failure>
+    </testcase>
+    <testcase classname="" name="_5" time="3.754607">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)&#13;&#10;&#9;at ✽.To verify invalid password in &quot;dell&quot; password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)&#13;&#10;"><![CDATA[Given To start chrome browser and hit the url...............................passed
+When To verify invalid username "laptop123@gmail.com" in email box..........passed
+And To verify invalid password in "dell" password box.......................failed
+And To press login button...................................................skipped
+Then To close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)
+	at ✽.To verify invalid password in "dell" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)
+]]></failure>
+    </testcase>
+    <testcase classname="" name="_6" time="3.558961">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)&#13;&#10;&#9;at ✽.To verify invalid password in &quot;galaxya30&quot; password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)&#13;&#10;"><![CDATA[Given To start chrome browser and hit the url...............................passed
+When To verify invalid username "samusnggalaxy@gmail.com" in email box......passed
+And To verify invalid password in "galaxya30" password box..................failed
+And To press login button...................................................skipped
+Then To close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.FbPosNeg.toVerifyInvalidPasswordInPasswordBox(FbPosNeg.java:30)
+	at ✽.To verify invalid password in "galaxya30" password box(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/Sample.feature:18)
+]]></failure>
+    </testcase>
+    <testcase classname="" name="_2" time="3.018632">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.Amazon.toEnterValidUsernameInEmailField(Amazon.java:27)&#13;&#10;&#9;at ✽.To enter valid username in email field(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/amazon.feature:6)&#13;&#10;"><![CDATA[Given To launch the chrome browser..........................................passed
+When To enter valid username in email field.................................failed
+And To click the continue button............................................skipped
+And To enter invalid password in password field.............................skipped
+And To click the the sign in button.........................................skipped
+Then To close the  browser..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.Amazon.toEnterValidUsernameInEmailField(Amazon.java:27)
+	at ✽.To enter valid username in email field(C:/Users/welcome/eclipse-workspace3/Cucumber/src/test/resources/Testing/amazon.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
